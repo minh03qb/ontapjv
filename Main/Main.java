@@ -4,6 +4,7 @@ public class Main {
         System.out.println("I will print on the same line.");
         System.out.println(3 + 3);
         System.out.println(2 * 5);
+
         final String name = "Alice";
         // name = "Bob"; // This would cause a compile-time error
         int age = 30;
@@ -47,6 +48,21 @@ public class Main {
         System.out.println("myChar: " + myChar);
         System.out.println("myBoolean: " + myBoolean);
         System.out.println("myString: " + myString);
+
+        // Type casting
+        // Widening casting: byte -> short -> char -> int -> long -> float -> double
+        // kieu du lieu nho hon chuyen sang kieu du lieu lon hon
+        int mInt = 9;
+        double mDouble = mInt; // Automatic casting: int to double
+        System.out.println(mInt); // Outputs 9
+        System.out.println(mDouble); // Outputs 9.0
+        // Narrowing casting: double -> float -> long -> int -> char -> short -> byte
+        // kieu du lieu lon hon chuyen sang kieu du lieu nho hon
+        double nDouble = 9.78;
+        int nInt = (int) nDouble; // Manual casting: double to int
+        System.out.println(nDouble); // Outputs 9.78
+        System.out.println(nInt); // Outputs 9
+
     }
 }
 
