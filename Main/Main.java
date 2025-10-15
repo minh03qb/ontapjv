@@ -7,7 +7,7 @@ public class Main {
         final String name = "Alice";
         // name = "Bob"; // This would cause a compile-time error
         int age = 30;
-        char grade = 'A';
+        char grade = 'A';// single quotes for char
         float height = 5.7f;
         boolean isStudent = false;
         System.out.println("Name: " + name);
@@ -35,6 +35,18 @@ public class Main {
         System.out.println(myVar1);// A
         System.out.println(myVar2);// B
         System.out.println(myVar3);// C
+
+        // Default values
+        var myNum = 5; // int
+        var myDouble = 9.98; // double
+        var myChar = 'D'; // char
+        var myBoolean = true; // boolean
+        var myString = "Hello"; // String
+        System.out.println("myNum: " + myNum);
+        System.out.println("myDouble: " + myDouble);
+        System.out.println("myChar: " + myChar);
+        System.out.println("myBoolean: " + myBoolean);
+        System.out.println("myString: " + myString);
     }
 }
 
