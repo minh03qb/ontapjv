@@ -15,5 +15,17 @@ public class Main {
         System.out.println("Grade: " + grade);
         System.out.println("Height: " + height);
         System.out.println("Is Student: " + isStudent);
+
+        int x = 5;
+        int y = 6;
+        // co the khoi tao la int x=5, y=6; ap dung trong truong hop nhieu bien cung
+        // kieu du lieu
+        /*
+         * neu cac gia tri bang nhau thi co the khai bao nhu sau:
+         * int x,y,z
+         * x=y=z=5;
+         */
+        System.out.println("The sum is " + x + y); // Prints: The sum is 56
+        System.out.println("The sum is " + (x + y)); // Prints: The sum is 11
     }
 }
