@@ -15,10 +15,13 @@ public class Main {
         System.out.println("Grade: " + grade);
         System.out.println("Height: " + height);
         System.out.println("Is Student: " + isStudent);
-
+        // Invalid identifiers:
+        // int 2ndNumber = 5; // Cannot start with a digit
+        // int my var = 10; // Cannot contain spaces
+        // int int = 20; // Cannot use reserved keywords
         int x = 5;
         int y = 6;
-        // co the khoi tao la int x=5, y=6; ap dung trong truong hop nhieu bien cung
+        // co the khoi tao la [int x=5, y=6; ] ap dung trong truong hop nhieu bien cung
         // kieu du lieu
         /*
          * neu cac gia tri bang nhau thi co the khai bao nhu sau:
@@ -27,5 +30,23 @@ public class Main {
          */
         System.out.println("The sum is " + x + y); // Prints: The sum is 56
         System.out.println("The sum is " + (x + y)); // Prints: The sum is 11
+
+        char myVar1 = 65, myVar2 = 66, myVar3 = 67;
+        System.out.println(myVar1);// A
+        System.out.println(myVar2);// B
+        System.out.println(myVar3);// C
     }
 }
+
+/*
+ * byte Stores whole numbers from -128 to 127
+ * short Stores whole numbers from -32,768 to 32,767
+ * int Stores whole numbers from -2,147,483,648 to 2,147,483,647
+ * long Stores whole numbers from -9,223,372,036,854,775,808
+ * to9,223,372,036,854,775,807
+ * float Stores fractional numbers. Sufficient for storing 6 to 7 decimal digits
+ * double Stores fractional numbers. Sufficient for storing 15 to 16 decimal
+ * digits
+ * boolean Stores true or false values
+ * char Stores a single character/letter or ASCII values
+ */
