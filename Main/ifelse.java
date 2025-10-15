@@ -29,12 +29,14 @@ public class ifelse {
         } else {
             System.out.println("Good evening.");
         }
+
         int time4 = 22;
         if (time4 < 10 || time4 > 20) {
             System.out.println("Good day.");
         } else {
             System.out.println("Good evening.");
         }
+
         int time5 = 22;
         if (!(time5 < 10 || time5 > 20)) {
             System.out.println("Good day.");
